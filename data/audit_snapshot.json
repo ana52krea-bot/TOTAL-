@@ -1,0 +1,44 @@
+{
+  "customers": 1831,
+  "products": 101,
+  "sales_rows": 920,
+  "sales_liters": 78600.0,
+  "sales_value": 234135.0,
+  "payments_rows": 647,
+  "payments_value": 163704.0,
+  "adjustments": -2977.0,
+  "current_balance": 73408.0,
+  "audit_issues": 29,
+  "validation": {
+    "sales_rows": {
+      "expected": 920,
+      "actual": 920,
+      "ok": true
+    },
+    "sales_liters": {
+      "expected": 78600.0,
+      "actual": 78600.0,
+      "ok": true
+    },
+    "sales_value": {
+      "expected": 234135.0,
+      "actual": 234135.0,
+      "ok": true
+    },
+    "payments_rows": {
+      "expected": 647,
+      "actual": 647,
+      "ok": true
+    },
+    "payments_value": {
+      "expected": 163704.0,
+      "actual": 163704.0,
+      "ok": true
+    },
+    "current_balance": {
+      "expected": 73408.0,
+      "actual": 73408.0,
+      "ok": true
+    }
+  }
+}
